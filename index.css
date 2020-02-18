@@ -1,0 +1,195 @@
+body {
+    display: block;
+    background: url("https://3.bp.blogspot.com/-7J_KY3sOvPU/XAneILbaJ9I/AAAAAAAACDQ/s3Ctmuj0e9IfCIqn3OI9oi2Db57SBxWogCHMYCw/s1600/long-desert-road-black-and-white-%25E2%259D%25A4-4k-hd-desktop-wallpaper-for-4k.jpg") no-repeat fixed center;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10;
+    background-color: #e2f3f3;
+    border: 10;
+    font-family: Jazz LET, fantasy;
+    padding: 0;
+  }
+  
+  #toy-header {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(161, 156, 155, 0.8);
+    opacity: .8;
+    height: 7rem;
+    padding: 1rem;
+  }
+  
+  #toy-header img {
+    height: 8rem;
+    width: auto;
+    display: block;
+
+  }
+  #form-create {
+      display: block;
+    text-align: center;
+
+      justify-content: center;
+    flex-direction: column;
+      padding-top: 10px;
+  }
+  #toy-collection {
+    display: block;
+    display: flex;
+    /* height: 600px; */
+    margin: 2rem;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+  }
+  
+  .card {
+      display: block;
+    text-align: center;
+    border: rgb(199, 195, 205) solid 0.5px;
+    padding: 0,5rem;
+    width: 8rem;
+    height: 5rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 8px 4px #070707;
+  }
+  
+  .toy-avatar {
+    display: block;
+    justify-self: center;
+    height: 3rem !important;
+    width: 100%;
+    margin: auto;
+  }
+
+  .car {
+    display: block;
+    padding: 0,5rem;
+    justify-self: center;
+     height: 4% !important;
+    /* width: 33%; */
+    margin: 1rem 1rem;
+    background: rgba(161, 156, 155, 0.4);
+  }
+
+  .car-image{
+      display: block;
+      height: 180px;
+      width: 300px;
+  }
+  
+  button {
+    position: relative;
+    background-color: #75736f;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    color: rgb(243, 4, 4);
+    font-size: 18px;
+    justify-self: center;
+    margin: auto;
+  }
+  
+  button:hover {
+    background-color: rgb(251, 252, 248);
+    border: #4d03fa solid 1px;
+    color: #080808;
+  }
+  
+  .container {
+    padding: 1rem;
+    width: stretch;
+    height: auto;
+    display: none;
+    background: rgb(8, 8, 8);
+    opacity: .8;
+  }
+  
+  #add-toy-form {
+    width: 80%
+  }
+  
+  .submit {
+    display: block;
+    position: relative;
+    background-color: #310d0d;
+    border-radius: 5px;
+    height: 2rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+    font-family: monospace;
+    margin: 3px;
+  }
+  
+  .submit:hover {
+    background-color: whitesmoke;
+    border: #e04b52 solid 1px;
+    color: #e04b52;
+  }
+  
+  
+  .input-text {
+    border-radius: 5px;
+    height: 2rem;
+    width: 60%;
+    font-size: 18px;
+    /* font-family: monospace; */
+    margin: 3px;
+  }
+  
+  .zoomin { height: 200px; width: 200px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease; }
+    .zoomin img:hover,
+    img.zoomer{ width: 300px; height: 600px; }
+
+
+    buttonchik {
+      position: relative;
+      background-color: #fcf407;
+      border: none;
+      border-radius: 5px;
+      height: 3rem;
+      width: max-content;
+      color: whitesmoke;
+      font-size: 18px;
+      justify-self: center;
+    }
+    
+    buttonchik:hover {
+      background-color: rgb(179, 235, 14);
+      border: #f1f0f5 solid 1px;
+      color: #080808;
+    }
+
+    .like {
+      position: relative;
+      background-color:  rgba(161, 156, 155, 0.1);
+      border: none;
+      border-radius: 5px;
+      height: 1rem;
+      width: max-content;
+      color: rgb(247, 6, 6);
+      font-size: 18px;
+      justify-self: center;
+    }
+    
+    .like:hover {
+      background-color: rgba(161, 156, 155, 0.1);
+      border: #0b0a0a solid 1px;
+      color: #f30707;
+    }
+
+
+    
+
+    

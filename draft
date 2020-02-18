@@ -1,0 +1,64 @@
+carCollectionDiv.addEventListener('click', event => {
+      event.preventDefault()
+      if (event.target.classList.contains("aibek")) {
+        // debugger
+        // debugger
+          console.log("hello");
+          let kId = event.target.dataset.id
+        
+          fetch(`http://localhost:3000/cars/${kId}`, {
+            method: 'PATCH',
+            headers: {
+              'Content-type':'application/json',
+              'Accept':'application/json'
+            },
+            body: JSON.stringify({
+              name: newName
+            })
+          })
+          .then(r => r.json())
+          .then(data => {
+            // currentN = data.name
+            // event.target.parentElement.firstElementChild.querySelector('span').innerText = event.target.parentElement.firstElementChild.querySelector('span').innerText.split("").reverse().join("")
+        })
+           
+      }
+    })
+  // let currentLike = event.target.parentElement.children[3].innerText
+        // let cId = event.target.dataset.id
+        // let newLike = parseInt(event.target.parentElement.children[3].innerText) - 1
+        // fetch(`http://localhost:3000/cars/${cId}`, {
+        //   method: 'PATCH',
+        //   headers: {
+        //     "Content-type":"application/json",
+        //     "Accept":"application/json"
+
+        //   },
+        //   body: JSON.stringify({
+        //     likes: newLike
+        //   })
+        // })
+        // .then(r => r.json())
+        // .then(like => {
+        //   // debugger
+        //   event.target.parentElement.children[3].querySelector('span').innerText = newLike 
+        //   // debugger
+        // })
+           cId = event.target.dataset.id
+      //  let  currentName = event.target.parentElement.firstElementChild.innerText
+      //  newName =  event.target.parentElement.firstElementChild.innerText.split("").reverse().join("")
+      //  fetch(`http://localhost:3000/cars/${cId}`, {
+      //     method: 'PATCH',
+      //     headers: {
+      //     'Content-type': 'application/json',
+      //     'Accept': 'application/json'
+
+      //     },
+      //     body: JSON.stringify({
+      //       name: newName
+      //     })
+      //   })
+      //   .then(r => r.json())
+      //   .then(data => {
+      //     event.target.parentElement.firstElementChild.innerText = event.target.parentElement.firstElementChild.innerText.split("").reverse().join("")
+      //   })
